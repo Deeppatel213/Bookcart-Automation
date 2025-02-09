@@ -4,7 +4,7 @@
             "src/test/features/"
         ],
         "publishQuit":true,
-        "dryRun":true,
+        "dryRun":false,
         "formatOptions":{
             "snippetInterface": "async-await"
         },

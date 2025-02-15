@@ -11,7 +11,7 @@ Given('The user navigates to the website', async function () {
 });
 
 Given('The user clicks on the login link', async function () {
-
+    await page.getByRole('button', { name: 'Login' }).click()
 });
 
 

@@ -17,7 +17,12 @@ Before(async function(){
     pageFixure.page = page;  
 });
 
-After(async function(){
+After(async function({ pickle }){
+
+    // add screenshot
+
+    const img = await pageFixure.page.screenshot({path:`./test-result/screenshots/${pickle.name}.png`, type:"png"});
+    await this.attach(img,"image/png");
     await page.close();
     await context.close();
 })

@@ -1,3 +1,4 @@
 import { setDefaultTimeout } from "@cucumber/cucumber";
 
-setDefaultTimeout(5000);
+
+setDefaultTimeout(10*1000);

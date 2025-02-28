@@ -19,6 +19,7 @@
             "html:cucumber-report.html",
             "progress-bar",
             "json:cucumber-report.json"
-        ]
+        ],
+        "parallel":2
     }
 }

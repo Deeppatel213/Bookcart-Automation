@@ -16,7 +16,8 @@
             "ts-node/register"
         ],
         "format":[
-            "html:cucumber-report.html"
+            "html:cucumber-report.html",
+            "progress-bar"
         ]
     }
 }

@@ -16,8 +16,8 @@
             "ts-node/register"
         ],
         "format":[
-            "html:cucumber-report.html",
-            "json:cucumber-report.json"
+            "html:test-result/cucumber-report.html",
+            "json:test-result/cucumber-report.json"
         ],
         "parallel":2
     }

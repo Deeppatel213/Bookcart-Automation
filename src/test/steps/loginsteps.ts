@@ -3,7 +3,7 @@ import { expect } from "@playwright/test"
 import { pageFixure } from "../../hooks/pageFixure";
 
 Given('The user navigates to the website', async function () {
-    pageFixure.page.goto("https://bookcart.azurewebsites.net/")
+    pageFixure.page.goto(`${process.env.BASEURL}`)
 });
 
 Given('The user clicks on the login link', async function () {
